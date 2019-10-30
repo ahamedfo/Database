@@ -1,0 +1,41 @@
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="map.js"></script>
+    <script src="PieChart.js"></script>
+    <script src="Bar.js"></script>
+    <style>
+        body, div{
+            height: 100%;
+        }
+    </style>
+    <title>Login</title>
+    <center>
+    <h1>Crime In New York</h1>
+        <style>
+        h1{
+    margin: 0;
+    padding: 20px 60px 4px;
+}
+        </style>
+        <style>
+        p, textarea{
+    margin: 0;
+    padding: 40px 545px 10px;
+}
+        </style>
+    </center>
+</head>
+<body onload="loadMap(); loadPieChart(); loadBar();">
+
+<div id="map"></div>
+<div id="piechart"></div>
+<div id="barchart"></div>
+
+<p>What did You Think Of This Website?!</p>
+<textarea name="comments" cols="20" rows="4">Enter Your Comments...</textarea>
+<style> 
+
+</style>
+</body>
+</html>

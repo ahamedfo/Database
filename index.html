@@ -1,0 +1,79 @@
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="map.js"></script>
+    <script src="PieChart.js"></script>
+    <script src="population.js"></script>
+    <script src="Bar.js"></script>
+    <script src="QBar.js"></script>
+    <script src="BBar.js"></script>
+    <script src="SBar.js"></script>
+    <script src="MBar.js"></script>
+    <img src="https://pbs.twimg.com/profile_images/1013405657918267397/uob9UeP9_400x400.jpg" alt="smiley face" width="100" height="100" align="right" align="bottom">
+    <img src="https://pbs.twimg.com/profile_images/1013405657918267397/uob9UeP9_400x400.jpg" alt="smiley face" width="100" height="100" align="left">
+    <style>
+        body {
+            height: 100%;
+            background-color: #93b874
+        }
+        div{
+            height: 100%
+        }
+    </style>
+    <title>Login</title>
+    <center>
+    <h1><u>Crime In New York By Ahamed Fofana</u></h1>
+        <style>
+        h1{
+    margin: 0;
+    padding: 20px 60px 4px;
+}
+        </style>
+    
+        
+    <button onclick="myFunction()">What Is This Website!</button>
+
+        <script>
+        function myFunction() {
+            alert("This website displays information on Court summons in New York City as well as perecntages of crime in each borough. If you would like to see this data compared to other statistics in New York Scroll down to see my bar graphs.");
+        }
+        </script>
+    <button onClick="document.getElementById('map').scrollIntoView();">Map Displaying Crimes With Descriptions</button>
+    <button onClick="document.getElementById('Newpiechart').scrollIntoView();">Percentages Of People Per Borough</button>
+    <button onClick="document.getElementById('piechart').scrollIntoView();">Percentages Of Crime Per Borough </button>
+     <button onClick="document.getElementById('barchart').scrollIntoView();">Crime Statistics in The Bronx </button>
+     <button onClick="document.getElementById('Qbarchart').scrollIntoView();">Crime Statistics in Queens </button>
+     <button onClick="document.getElementById('Bbarchart').scrollIntoView();">Crime Statistics in Brooklyn </button>
+     <button onClick="document.getElementById('Sbarchart').scrollIntoView();">Crime Statistics in Staten Island </button>
+     <button onClick="document.getElementById('Mbarchart').scrollIntoView();">Crime Statistics in Manhattan </button>
+     
+     <form>
+<input type="button" value="New York Current Crimes" onclick="window.location.href='https://www.nydailynews.com/new-york/nyc-crime/'" />
+</form>
+     
+        <style>
+        p, textarea{
+    margin: 0;
+    padding: 40px 545px 10px;
+}
+        </style>
+    </center>
+</head>
+<body onload="loadMap(); loadNewPieChart(); loadPieChart(); loadBar(); QloadBar(); BloadBar(); SloadBar(); MloadBar();">
+
+<img src="http://www.wallpapermaiden.com/wallpaper/21491/download/2048x1440/usa-new-york-city-skyscrapers-architecture-buildings-cityscape.jpg" alt="front" width="1250" height="600">
+<div id="map"></div>
+<div id="piechart"></div>
+<div id="Newpiechart"></div>
+<div id="barchart"></div>
+<div id="Qbarchart"></div>
+<div id="Bbarchart"></div>
+<div id="Sbarchart"></div>
+<div id="Mbarchart"></div>
+
+  </form>
+
+</div>
+
+</body>
+</html>
